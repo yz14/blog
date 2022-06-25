@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My first trip: The wonderful Himalayan"
-img: himalayan.jpg # Add image post (optional)
+img: https://picx.zhimg.com/80/v2-d996a5a8e5ae8d401a878ae596fe0a1d_720w.jpg?source=d16d100b # Add image post (optional)
 date: 2017-07-12 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 tag: [Travel, Blogging, Mountains]
