@@ -7,7 +7,7 @@ layout: default
   <article class="post">
     <header>
       <div class="post_image">
-        <img src="https://pic3.zhimg.com/{{page.img}}">
+        <img src={{ "https://pic3.zhimg.com/" | append: post.img }} alt="{{post.title}}">
       </div>
       <div class="post_description">
         <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
