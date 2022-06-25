@@ -8,12 +8,12 @@ layout: default
     <header>
       <div class="post_image">
 <!--         <img src={{ "https://pic3.zhimg.com/" | append: post.img }} alt="{{post.title}}"> -->
-        <img src= "https://picx.zhimg.com/80/v2-d996a5a8e5ae8d401a878ae596fe0a1d_720w.jpg?source=d16d100b">
+        <img src= {{ "" | prepend: "" | append : page.img}}>
       </div>
       <div class="post_description">
         <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
 <!--         <h1 class="post_title">{{page.title}}</h1> -->
-        <h1 class="post_title">{{ "is" | prepend: "this" | append : page.img}}</h1>
+        <h1 class="post_title">{{ "" | prepend: "" | append : page.img}}</h1>
       </div>
     </header> <!-- End Header -->
 
